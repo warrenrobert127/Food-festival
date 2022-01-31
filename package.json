@@ -20,13 +20,19 @@
   },
   "homepage": "https://github.com/warrenrobert127/Food-festival#readme",
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "webpack": "^4.46.0",
-    "webpack-cli": "^4.6.0"
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "image-webpack-loader": "^8.1.0",
     "popper.js": "^1.16.0",
     "query": "^0.2.0",
-    "save": "^2.4.0"
+    "save": "^2.4.0",
+    "sw-precache-webpack-plugin": "^1.0.0",
+    "webpack-dev-server": "^4.7.3",
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }
